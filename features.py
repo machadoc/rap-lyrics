@@ -1,6 +1,5 @@
 from textblob import TextBlob
 import readability
-# import pronouncing
 
 def word_count(lyrics):
     return len(lyrics.split())
